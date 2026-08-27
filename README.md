@@ -96,6 +96,24 @@ A direção visual **Neon Joia** combina base editorial em grafite, contraste al
 
 Veja [Sistema visual](docs/visual-system.md).
 
+## Interface real
+
+Capturas realizadas diretamente no aplicativo em execução local, sem contas, credenciais ou dados pessoais. A mesma interface se adapta aos diferentes tamanhos de tela.
+
+### Apresentação no desktop
+
+<p align="center">
+  <img src="assets/screenshots/welcome-desktop.png" alt="Apresentação do Movimenta no desktop" width="760" />
+</p>
+
+### Experiência mobile
+
+<p align="center">
+  <img src="assets/screenshots/welcome-mobile.png" alt="Apresentação do Movimenta no celular" width="300" />
+  &nbsp;&nbsp;
+  <img src="assets/screenshots/login-mobile.png" alt="Login real do Movimenta no celular" width="300" />
+</p>
+
 ## Documentação do showcase
 
 - [Arquitetura](docs/architecture.md)
