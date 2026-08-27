@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/showcase-cover.svg" alt="Movimenta — descubra, viva, movimente" width="100%" />
+</p>
+
 # Movimenta
 
 **Uma plataforma universal para descobrir lugares, viver experiências e encontrar oportunidades na cidade.**
