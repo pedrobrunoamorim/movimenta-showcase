@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+  <title id="title">Movimenta — descubra, viva, movimente</title>
+  <desc id="desc">Capa em grafite com acentos neon rosa, laranja, roxo e ciano.</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff2e85"/>
+      <stop offset=".35" stop-color="#ff6b35"/>
+      <stop offset=".67" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="glowPink">
+      <stop offset="0" stop-color="#ff2e85" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#ff2e85" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="480" rx="32" fill="#08080f"/>
+  <rect width="1200" height="480" rx="32" fill="url(#grid)"/>
+  <circle cx="1050" cy="80" r="280" fill="url(#glowPink)"/>
+  <circle cx="110" cy="430" r="300" fill="url(#glowCyan)"/>
+
+  <g transform="translate(86 72)">
+    <rect width="88" height="88" rx="24" fill="#111119" stroke="#ffffff" stroke-opacity=".12"/>
+    <path d="M20 59 38 25c3-6 12-6 15 0l8 17 14-20c6-8 18-1 13 8L66 67c-4 7-15 7-19 0l-7-14-9 14c-5 8-16 2-11-8Z" fill="url(#accent)"/>
+  </g>
+
+  <text x="86" y="226" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="76" font-weight="800" letter-spacing="-3">movimenta</text>
+  <text x="89" y="274" fill="#c9c8d2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="500">DESCUBRA. VIVA. MOVIMENTE.</text>
+
+  <g transform="translate(86 330)">
+    <rect width="184" height="48" rx="24" fill="#14141d" stroke="#ff2e85" stroke-opacity=".55"/>
+    <text x="92" y="31" text-anchor="middle" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="600">Android · iOS · Web</text>
+    <rect x="200" width="146" height="48" rx="24" fill="#14141d" stroke="#7c3aed" stroke-opacity=".55"/>
+    <text x="273" y="31" text-anchor="middle" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="600">Expo + React Native</text>
+    <rect x="362" width="128" height="48" rx="24" fill="#14141d" stroke="#22d3ee" stroke-opacity=".55"/>
+    <text x="426" y="31" text-anchor="middle" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="600">Supabase</text>
+  </g>
+
+  <path d="M760 397c116-130 174-196 358-284" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" opacity=".9"/>
+  <path d="M795 425c102-104 174-152 332-225" fill="none" stroke="url(#accent)" stroke-width="16" stroke-linecap="round" opacity=".18" filter="url(#shadow)"/>
+  <circle cx="913" cy="268" r="8" fill="#ff6b35"/>
+  <circle cx="1029" cy="176" r="8" fill="#7c3aed"/>
+  <circle cx="1118" cy="113" r="8" fill="#22d3ee"/>
+</svg>
